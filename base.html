@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"> <!-- load bootstrap via CDN -->
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script src="jquery.min.js"></script> <!-- load jquery via CDN -->
+	<script src="samp.js"></script> <!-- load our javascript file -->
+</head>
+
+	<div class="loginbox">
+		<img src="signupavatar.jpg" class="avatar">
+		<h1>Login</h1>
+
+	
+	<div class="col-sm-6 col-sm-offset-3">
+
+	
+
+	<!-- OUR FORM -->
+	<form action="process.php" method="POST">
+		
+		<!-- NAME -->
+		<div id="email-group" class="form-group">
+			<label for="email">Email</label>
+			<input type="text" class="form-control" name="email" placeholder="">
+			<!-- errors will go here -->
+		</div>
+
+	
+
+		<!-- SUPERHERO ALIAS -->
+		<div id="password-group" class="form-group">
+			<label for="password">Password</label>
+			<input type="password" class="form-control" name="password" placeholder="">
+			<!-- errors will go here -->
+		</div>
+
+		<input type="submit" class="btn btn-success" value="submit">
+		
+		
+		</form>
+		
+
+
+</body>
+</html>
