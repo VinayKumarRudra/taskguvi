@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login Page</title>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="login.css">
+	<script src="jquery.min.js"></script> <!-- load jquery via CDN -->
+	<script src="samp.js"></script> <!-- load our javascript file -->
+</head>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+      
+      
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+      <li><a href="about.html"><span class="glyphicon glyphicon-about-us"></span>AboutUs</a></li>
+    </ul>
+  </div>
+</nav>
+
+	<div class="loginbox">
+		<img src="signupavatar.jpg" class="avatar">
+		<h1>Login</h1>
+
+	
+	<div class="col-sm-6 col-sm-offset-3">
+
+	
+
+	<!-- OUR FORM -->
+	<form action="process.php" method="POST">
+		
+		<!-- NAME -->
+		<div id="email-group" class="form-group">
+			<label for="email">Email</label>
+			<input type="text" class="form-control" name="email" placeholder="">
+			<!-- errors will go here -->
+		</div>
+
+	
+
+		<!-- SUPERHERO ALIAS -->
+		<div id="password-group" class="form-group">
+			<label for="password">Password</label>
+			<input type="password" class="form-control" name="password" placeholder="">
+			<!-- errors will go here -->
+		</div>
+
+		<input type="submit" class="btn btn-success" value="submit">
+		
+		
+		</form>
+		</div>
+	</div>
+		
+
+
+</body>
+</html>

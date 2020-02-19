@@ -1,0 +1,37 @@
+
+body{
+	
+	margin:0;
+	padding:0;
+	background-image:url("new1.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	font_family: sans-serif;
+}
+
+
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2.5rem;
+  background-color: #000000;
+  text-align: right;
+}
+.footer p{
+	font-size:20px;
+	font-family:sans-serif;
+}

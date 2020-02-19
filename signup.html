@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="sign.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="main.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+      
+      
+      <li><a href="base.html"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+      <li><a href="about.html"><span class="glyphicon glyphicon-about-us"></span>AboutUs</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="loginbox">
+		<img src="signupavatar.jpg" class="avatar">
+	
+	<h1>signup<h1>
+<div class="col-sm-6 col-sm-offset-3">
+
+	
+
+	<!-- OUR FORM -->
+	<form action="process2.php" method="POST">
+	
+		<div id="studentid-group" class="form-group">
+			<label for="studentid">Id</label>
+			<input type="number" class="form-control" name="studentid" placeholder="">
+			<!-- errors will go here -->
+		</div>
+		
+		
+		<div id="name-group" class="form-group">
+			<label for="name">Name</label>
+			<input type="text" class="form-control" name="name" placeholder="">
+			<!-- errors will go here -->
+		</div>
+
+		<!-- EMAIL -->
+		<div id="email-group" class="form-group">
+			<label for="email">Email</label>
+			<input type="text" class="form-control" name="email" placeholder="">
+			
+		</div>
+		
+		<div id="password-group" class="form-group">
+			<label for="password">Password</label>
+			<input type="password" class="form-control" name="password" placeholder="">
+			<!-- errors will go here -->
+		</div>
+		
+		
+		<div id="address-group" class="form-group">
+			<label for="address">address</label>
+			<input type="text" class="form-control" name="address" placeholder="">
+			<!-- errors will go here -->
+		</div>
+		
+		<div id="age-group" class="form-group">
+			<label for="age">age</label>
+			<input type="int" class="form-control" name="age" placeholder="">
+			<!-- errors will go here -->
+		</div>
+		
+		<!-- NAME -->
+		<div id="dob-group" class="form-group">
+			<label for="DOB">DOB</label>
+			<input type="date" class="form-control" name="DOB" placeholder="">
+			<!-- errors will go here -->
+		</div>
+
+
+		
+		
+		
+		
+		
+
+		
+		
+		<input type="submit" class="btn btn-success" value="submit">
+
+	</form>
+
+
+</div>
+</div>
+
+</body>
+</html>
